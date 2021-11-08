@@ -37,25 +37,52 @@
                                 <state key="normal" title="LogIn">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="logInButton" destination="O8w-k7-AR7" eventType="touchUpInside" id="Z1a-5X-AaO"/>
+                                    <segue destination="Fgd-he-Iwh" kind="show" id="TVy-ET-Jll"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="joker" translatesAutoresizingMaskIntoConstraints="NO" id="yrm-dP-bzj">
+                                <rect key="frame" x="0.0" y="431" width="414" height="448"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="irM-qx-rya"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="irM-qx-rya" firstAttribute="trailing" secondItem="7uS-Rr-l9X" secondAttribute="trailing" constant="50" id="2ku-QX-7dr"/>
                             <constraint firstItem="7uS-Rr-l9X" firstAttribute="leading" secondItem="irM-qx-rya" secondAttribute="leading" constant="50" id="4bi-t8-U3K"/>
+                            <constraint firstItem="yrm-dP-bzj" firstAttribute="leading" secondItem="irM-qx-rya" secondAttribute="leading" id="58Y-ny-8c9"/>
                             <constraint firstItem="wdY-P0-aQN" firstAttribute="centerX" secondItem="zoY-We-QCN" secondAttribute="centerX" id="BeB-rV-LWS"/>
+                            <constraint firstItem="irM-qx-rya" firstAttribute="bottom" secondItem="wdY-P0-aQN" secondAttribute="bottom" constant="431" id="GjO-fu-i2f"/>
+                            <constraint firstItem="yrm-dP-bzj" firstAttribute="trailing" secondItem="irM-qx-rya" secondAttribute="trailing" id="IFI-kT-s7t"/>
+                            <constraint firstAttribute="bottom" secondItem="yrm-dP-bzj" secondAttribute="bottom" constant="17" id="L2U-uV-8nN"/>
+                            <constraint firstItem="yrm-dP-bzj" firstAttribute="top" secondItem="wdY-P0-aQN" secondAttribute="bottom" id="MbP-6G-yMv"/>
                             <constraint firstItem="7uS-Rr-l9X" firstAttribute="top" secondItem="irM-qx-rya" secondAttribute="top" constant="100" id="em4-bi-MPf"/>
                             <constraint firstItem="wdY-P0-aQN" firstAttribute="top" secondItem="7uS-Rr-l9X" secondAttribute="bottom" constant="80" id="yzn-wA-D1z"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nickNameTF" destination="sJJ-An-vPi" id="1V1-8T-B7m"/>
+                        <outlet property="passwordTF" destination="QnH-zq-bdw" id="XL4-rY-6SI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KkI-d4-hlf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="-223"/>
+            <point key="canvasLocation" x="111.59420289855073" y="-223.66071428571428"/>
+        </scene>
+        <!--Anna-->
+        <scene sceneID="zbT-Tw-hOd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Anna" id="Fgd-he-Iwh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="FWT-SN-e4j"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fx9-uM-UpO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="-454"/>
         </scene>
     </scenes>
     <resources>
+        <image name="joker" width="640" height="959"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
