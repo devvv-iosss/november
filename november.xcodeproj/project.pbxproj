@@ -16,6 +16,8 @@
 		84E1169727397D0F00D0C7BC /* Vovas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E1169627397D0F00D0C7BC /* Vovas.storyboard */; };
 		84E1169A27397D1C00D0C7BC /* VovasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1169927397D1C00D0C7BC /* VovasViewController.swift */; };
 		84E1169D27397E3C00D0C7BC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1169C27397E3C00D0C7BC /* Model.swift */; };
+		95E553BF2739815F00C5FDCC /* Anna.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E553BE2739815F00C5FDCC /* Anna.storyboard */; };
+		95E553C12739817300C5FDCC /* AnnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E553C02739817300C5FDCC /* AnnaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		84E1169627397D0F00D0C7BC /* Vovas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vovas.storyboard; sourceTree = "<group>"; };
 		84E1169927397D1C00D0C7BC /* VovasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VovasViewController.swift; sourceTree = "<group>"; };
 		84E1169C27397E3C00D0C7BC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		95E553BE2739815F00C5FDCC /* Anna.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Anna.storyboard; sourceTree = "<group>"; };
+		95E553C02739817300C5FDCC /* AnnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				84E1168527397B9A00D0C7BC /* ViewController.swift */,
 				84E1168727397B9A00D0C7BC /* Main.storyboard */,
 				84E1169627397D0F00D0C7BC /* Vovas.storyboard */,
+				95E553BE2739815F00C5FDCC /* Anna.storyboard */,
+				95E553C02739817300C5FDCC /* AnnaViewController.swift */,
 				84E1169C27397E3C00D0C7BC /* Model.swift */,
 				84E1169927397D1C00D0C7BC /* VovasViewController.swift */,
 				84E1168A27397BA600D0C7BC /* Assets.xcassets */,
@@ -135,6 +141,7 @@
 			files = (
 				84E1168E27397BA600D0C7BC /* LaunchScreen.storyboard in Resources */,
 				84E1168B27397BA600D0C7BC /* Assets.xcassets in Resources */,
+				95E553BF2739815F00C5FDCC /* Anna.storyboard in Resources */,
 				84E1169727397D0F00D0C7BC /* Vovas.storyboard in Resources */,
 				84E1168927397B9A00D0C7BC /* Main.storyboard in Resources */,
 			);
@@ -151,6 +158,7 @@
 				84E1168627397B9A00D0C7BC /* ViewController.swift in Sources */,
 				84E1168227397B9A00D0C7BC /* AppDelegate.swift in Sources */,
 				84E1169A27397D1C00D0C7BC /* VovasViewController.swift in Sources */,
+				95E553C12739817300C5FDCC /* AnnaViewController.swift in Sources */,
 				84E1168427397B9A00D0C7BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
